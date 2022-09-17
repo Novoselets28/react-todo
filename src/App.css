@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.createForm {
+  display: flex;
+}
+
+input {
+  margin-right: 5px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 0 0 0 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
